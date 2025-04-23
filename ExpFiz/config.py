@@ -1,6 +1,10 @@
-from b import tk
+import os
+from dotenv import load_dotenv
+
 class Config:
-    TOKEN = tk
+    load_dotenv()
+
+    TOKEN = os.getenv("BOT_TOKEN")
     MAX_INPUT_ATTEMPTS = 3
     DEFAULT_GRAVITY = 9.806
     PHYSICS_CONSTANTS = {

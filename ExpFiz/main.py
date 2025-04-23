@@ -3,7 +3,6 @@ from telegram.ext import Application
 from config import Config
 from bot.handlers.commands import get_handlers
 from bot.handlers.experiments_2.projectile_motion import ProjectileMotionHandler
-
 # Настройка логгирования
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s' ,
