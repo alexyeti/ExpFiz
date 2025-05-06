@@ -8,4 +8,3 @@ class ProjectileParams:
     gravity: float
     initial_height: float
     initial_velocity: float
-    density: float

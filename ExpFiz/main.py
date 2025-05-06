@@ -9,11 +9,9 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-
 async def post_init(app: Application):
     """Действия после инициализации бота"""
     logging.info("Бот успешно запущен")
-
 
 def setup_handlers(app: Application):
     """Регистрация всех обработчиков"""
@@ -25,7 +23,6 @@ def setup_handlers(app: Application):
     projectile_handler = ProjectileMotionHandler()
     app.add_handler(projectile_handler.get_handler())
 
-
 def main():
     """Точка входа"""
     app = Application.builder() \
@@ -34,9 +31,7 @@ def main():
         .build()
 
     setup_handlers(app)
-
     app.run_polling()
-
 
 if __name__ == "__main__":
     main()

@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 
 class Config:
     load_dotenv()
-
     TOKEN = os.getenv("BOT_TOKEN")
     MAX_INPUT_ATTEMPTS = 3
     DEFAULT_GRAVITY = 9.806
