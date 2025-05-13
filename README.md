@@ -18,7 +18,7 @@
 
 ## Как запустить проект:
 1. Клонирование репозитория
-bash
+
 git clone https://github.com/alexyeti/expfiz.git
 
 cd expfiz
@@ -26,7 +26,7 @@ cd expfiz
 3. Установка зависимостей
 Рекомендуется создать виртуальное окружение:
 
-bash
+
 python -m venv venv
 
 source venv/bin/activate  # Linux/macOS
@@ -35,7 +35,7 @@ venv\Scripts\activate     # Windows
 
 Установите необходимые библиотеки:
 
-bash
+
 pip install numpy matplotlib python-telegram-bot
 
 
@@ -47,12 +47,12 @@ pip install numpy matplotlib python-telegram-bot
 4. Настройка переменных окружения
 Создайте файл .env в корне проекта и добавьте туда ваш токен:
 
-text
+
 
 BOT_TOKEN=ваш_токен_бота
 
 5. Запуск бота
-bash
+
 python bot.py
 
 После запуска бот будет доступен в Telegram, и вы сможете отправлять ему параметры для моделирования.
