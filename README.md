@@ -11,27 +11,33 @@
 #### Удобный и простой интерфейс взаимодействия через Telegram
 
 ### Технологии:
-##### Python 3.8+
-##### Библиотеки: python-telegram-bot, matplotlib, numpy
-##### DeepSeek - для генерации и оптимизации кода (частично)
-##### GitHub - для хранения и управления кодом
+#### Python 3.8+
+#### Библиотеки: python-telegram-bot, matplotlib, numpy
+#### DeepSeek - для генерации и оптимизации кода (частично)
+#### GitHub - для хранения и управления кодом
 
 ## Как запустить проект:
 1. Клонирование репозитория
 bash
 git clone https://github.com/alexyeti/expfiz.git
+
 cd expfiz
-2. Установка зависимостей
+
+3. Установка зависимостей
 Рекомендуется создать виртуальное окружение:
 
 bash
 python -m venv venv
+
 source venv/bin/activate  # Linux/macOS
+
 venv\Scripts\activate     # Windows
+
 Установите необходимые библиотеки:
 
 bash
 pip install -r requirements.txt
+
 3. Получение Telegram Bot API Token
 Создайте бота через BotFather в Telegram.
 
@@ -41,10 +47,13 @@ pip install -r requirements.txt
 Создайте файл .env в корне проекта и добавьте туда ваш токен:
 
 text
+
 BOT_TOKEN=ваш_токен_бота
+
 5. Запуск бота
 bash
 python bot.py
+
 После запуска бот будет доступен в Telegram, и вы сможете отправлять ему параметры для моделирования.
 
 
