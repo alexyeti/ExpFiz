@@ -4,8 +4,6 @@
 [![Telegram](https://img.shields.io/badge/Telegram-Bot_API-green?logo=telegram)](https://core.telegram.org/bots/api)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-<img src="https://github.com/alexyeti/expfiz/blob/main/assets/demo.gif?raw=true" width="300" alt="Демо работы бота">
-
 Он помогает моделировать полёт шара по заданным пользователем параметрам. Бот рассчитывает ключевые характеристики движения - время полёта, дальность, максимальную высоту - и строит график траектории полёта.
 Проект создан с использованием Python и нейросети DeepSeek для автоматизации генерации кода и построения графиков.
 
