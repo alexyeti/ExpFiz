@@ -30,21 +30,16 @@ ExpFiz — это образовательный Telegram-бот для моде
 # 1. Клонирование репозитория
 
 git clone https://github.com/alexyeti/expfiz.git
-
 cd expfiz
 
-# 2. Установите необходимые библиотеки:
+# 2. Установите зависимости
+pip install -r requirements.txt
 
-pip install numpy matplotlib python-telegram-bot
+# 3. Настройте бота
+echo "BOT_TOKEN=ваш_токен" > .env
 
-3. Получение Telegram Bot API Token
-Создайте бота через BotFather в Telegram.
-
-Получите API токен для вашего бота.
-
-4. Настройка переменных окружения
-Создайте файл .env в корне проекта и добавьте туда ваш токен:
-
+# 4. Запустите!
+python bot.py
 ```
 
 # Контакты
