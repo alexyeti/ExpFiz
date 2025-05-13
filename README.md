@@ -36,7 +36,8 @@ venv\Scripts\activate     # Windows
 Установите необходимые библиотеки:
 
 bash
-pip install -r requirements.txt
+pip install numpy matplotlib python-telegram-bot
+
 
 3. Получение Telegram Bot API Token
 Создайте бота через BotFather в Telegram.
